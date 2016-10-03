@@ -17,6 +17,11 @@
     <h4>Chunky Bacon</h4>
   <% end %>
 
+  <p>Count of unique products: <%= @unique_products %> </p>
+  <p>Average price of products: <%= @avg_price %> </p>
+  <p>Total stock on hand of all products: <%= @total_stock_count %> </p>
+
+
   <tbody>
     <% @products.each do |product| %>
       <tr>
